@@ -70,7 +70,7 @@ const QualityServices = () => {
       <div className='mt-[50px]'>
         <div className='flex flex-wrap gap-[30px] '>
           {services.map((service, index) => (
-              <div className='service_laguages'>
+              <div className='service_laguages'  key={index}>
                 <div className='laguage_service_img'>
                   <div>
                     <Image src={service.image} className='w-[100px] m-auto mb-[20px]' width={1920} height={1080} />

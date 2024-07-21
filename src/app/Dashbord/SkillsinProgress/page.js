@@ -38,7 +38,7 @@ const SkillsinProgress = () => {
             <div className='mt-[50px]'>
                 <div className='flex flex-wrap gap-[30px] justify-center items-center'>
                     {services.map((service, index) => (
-                        <div className='service_laguages'>
+                        <div className='service_laguages'  key={index}>
                             <div className='laguage_service_img2'>
                                 <div>
                                     <Image src={service.image} className='w-[100px] m-auto mb-[20px]' width={1920} height={1080} />
