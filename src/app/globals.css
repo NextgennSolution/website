@@ -406,18 +406,15 @@ ul.tablist {
 
   .laguage_service_img {
     padding: 12px 15px;
-    width: 127px;
   }
 
   .service_laguages {
-    width: 39%;
+    width: 100%;
   }
 
   .laguage_service_img img {
     min-height: 75px;
     margin-bottom: 10px;
-    width: 80%;
-
   }
 
   .laguage_service_img {
