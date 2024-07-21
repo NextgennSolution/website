@@ -100,7 +100,9 @@ const Navbar = ({ sections }) => {
               <i className="fa fa-bars" aria-hidden="true"></i>
             </button>
             <div>
-              <h1 className='font-sans text-[35px] text-[#7746DB] font-bold'>MV</h1>
+              {/* <h1 className='font-sans text-[35px] text-[#7746DB] font-bold'>MV</h1> */}
+            <Image src={logo} alt='Profile Image' className='w-[100%] ' width={1920} height={1080} />
+
             </div>
           </div>
           <Drawer
